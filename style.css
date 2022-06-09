@@ -16,16 +16,22 @@ body {
     transform: translate(-50%, -50%);
     color: white;
     display: flex;
-    width: 23rem;
+    width: 20rem;
     height: 10rem;
     border-radius: 1.2rem;
     padding: 1rem;
     font-family: 'Poppins', sans-serif;
     align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
 }
 
 .cookie {
-    padding-right: 1rem;
+    transform: scale(0.6)
+}
+
+.text {
+    width: 70%;
 }
 
 .cookie-title {
@@ -35,6 +41,7 @@ body {
 
 .cookie-subtitle {
     font-weight: bold;
+    padding: 0.25rem 0rem;
     font-size: 0.8rem;
 }
 
